@@ -1,0 +1,12 @@
+{
+  "name": "zen-mode",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-ext run --pref extensions.legacy.enabled=true --pref extensions.experiments.enabled=true",
+    "build": "web-ext build"
+  },
+  "devDependencies": {
+    "web-ext": "^5.0.0"
+  }
+}

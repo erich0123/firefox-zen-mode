@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Zen Mode",
+  "version": "1.0",
+  "description": "Hide the browser UI to maximize viewport space. (Experimental)",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zen-mode@erich.app"
+    }
+  },
+  "theme_experiment": {
+    "stylesheet": "style.css",
+    "properties": {
+      "navigator_toolbox_display": "--navigator-toolbox-display"
+    }
+  },
+  "commands": {
+    "toggle-zen": {
+      "suggested_key": {
+        "default": "Ctrl+F11"
+      },
+      "description": "Toggle Zen Mode"
+    }
+  },
+  "permissions": ["theme"],
+  "icons": {
+    "64": "icon.png"
+  },
+  "browser_action": {
+    "default_title": "Start Zen Mode",
+    "default_icon": {
+      "64": "icon.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
