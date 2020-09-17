@@ -2,6 +2,8 @@
 
 ## A Firefox web extension that toggles the browser UI
 
+![Zen Mode in action](docs/screencast.gif)
+
 ### Installation
 
 NOTE: This extension only works with Firefox nightly / beta / dev edition
